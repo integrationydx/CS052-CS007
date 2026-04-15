@@ -146,18 +146,15 @@ make -C boilerplate ci
 ## Repository Structure
 
 ```
-boilerplate/
-├── engine.c            # User-space runtime and supervisor
-├── monitor.c           # Kernel module (memory monitor)
-├── monitor_ioctl.h     # Shared ioctl command definitions
-├── Makefile            # Build targets for user-space and kernel module
-├── cpu_hog.c           # CPU-bound test workload (C)
-├── io_pulse.c          # I/O-bound test workload (C)
-├── memory_hog.c        # Memory-consuming test workload (C)
-├── cpu_stress.py       # CPU-bound stress script (Python)
-├── io_stress.py        # I/O-bound stress script (Python)
-└── environment-check.sh
-```
+WorkingCodes/
+├── Task1engine.c            
+├── Task2engine.c           
+├── Task3engine.c     
+├── Task4supervisor.c          
+├── Task4monitor.c           
+├── cpu_stress.py          
+├── Io_stress.py.c        
+
 
 ---
 
